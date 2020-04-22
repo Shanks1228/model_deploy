@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1WD7jVM_nsC6EbjueNLDteyqyQ62o1vq9'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1WD7jVM_nsC6EbjueNLDteyqyQ62o1vq9'
 export_file_name = 'steel_model.pkl'
 
 classes = ['Defect', 'No Defect']
